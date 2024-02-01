@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      table {
+        background-color: gray;
+        border-collapse: separate;
+        border-spacing: 12px;
+        width: 50%;
+        border: 4px double black; /* Borde doble para la tabla con color gris */
+      }
+
+      thead th {
+        background-color: #20ac99;
+        border: 2px solid black;
+        padding: 4px;
+        border-spacing: inherit;
+      }
+
+      tbody td {
+        background-color: #ee9a46;
+        border: 2px groove black;
+        padding: 4px;
+        border-spacing: inherit;
+      }
+
+      tfoot td {
+        background-color: #f5b270;
+        border: 2px groove black;
+        padding: 4px;
+        border-spacing: inherit;
+      }
+
+      .Feriado {
+        font-weight: bolder;
+      }
+
+      .Anterior {
+        font-style: oblique;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Calendario de diciembre del 2023</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>L</th>
+          <th>M</th>
+          <th>X</th>
+          <th>J</th>
+          <th>V</th>
+          <th>S</th>
+          <th>D</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="Anterior">27</td>
+          <td class="Anterior">28</td>
+          <td class="Anterior">29</td>
+          <td class="Anterior">30</td>
+          <td>01</td>
+          <td>02</td>
+          <td>03</td>
+        </tr>
+        <tr>
+          <td>04</td>
+          <td>05</td>
+          <td>06</td>
+          <td>07</td>
+          <td class="Feriado">08</td>
+          <td>09</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>12</td>
+          <td>13</td>
+          <td>14</td>
+          <td>15</td>
+          <td>16</td>
+          <td>17</td>
+        </tr>
+        <tr>
+          <td>18</td>
+          <td>19</td>
+          <td>20</td>
+          <td>21</td>
+          <td>22</td>
+          <td>23</td>
+          <td>24</td>
+        </tr>
+        <tr>
+          <td class="Feriado">25</td>
+          <td>26</td>
+          <td>27</td>
+          <td>28</td>
+          <td>29</td>
+          <td>30</td>
+          <td>31</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="7">8: Día de la Virgen.</td>
+        </tr>
+        <tr>
+          <td colspan="7">25: Navidad.</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
