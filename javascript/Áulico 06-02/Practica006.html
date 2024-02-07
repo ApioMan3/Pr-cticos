@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ejercicio 6</title>
+<link rel="stylesheet" href="Estilos.css">
+</head>
+<body>
+    <h2>Múltiplos de 3</h2>
+
+    <script type="text/javascript">
+        let valores = [32, 45, 78, 99, 12, 21];
+        let contador = 0;
+        console.log("Los múltiplos de 3 son:");
+        for (let i in valores) {
+            let valor = valores[i];
+            if (valor % 3 === 0) {
+                console.log(valor);
+                contador++;
+            }
+        }
+        console.log("Se encontró un total de "+contador+" múltiplos de 3.");
+    </script>
+</body>
+</html>
