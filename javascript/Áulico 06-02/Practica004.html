@@ -12,7 +12,7 @@
     <script type="text/javascript">
           let num = parseInt(prompt("Ingrese un número:"));
 
-          if(typeof num != Number){
+          if(isNaN(num)){
             console.log("No se insertó un número válido.");
           }else{
           if (num % 2 === 0) {

@@ -1,0 +1,38 @@
+.contenedorprincipal {
+    display: flex;
+    background-color: #d3d4d3
+}
+.columna {
+    border-top: solid 2px #64BCD9;
+}
+.imgicon {
+    width: 16px;
+    height: 16px;
+    color: #64BCD9;
+}
+
+
+section {
+    color: #64BCD9;
+    margin: 10px;
+    font-size: small;
+}
+
+
+
+.apps {
+    width: 128px;
+    display: inline-block;
+    
+}
+
+section .lista{
+    text-align: left;
+    color:black;
+}
+.titulo {
+    display: inline-flex;
+    position: relative;
+    font-size: 16px;
+    padding-bottom: 3px;
+}

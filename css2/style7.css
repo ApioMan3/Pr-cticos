@@ -1,0 +1,78 @@
+main {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding-left: 25px;
+}
+.perfil{
+    border-radius: 600px;
+    width: 48px;
+    height: 48px;
+    position: relative;
+    float: left;
+    left: -25px;
+}
+
+.comentario {
+    position: relative;
+    margin: 5px 0px 10px 0px;
+    right: 0px;
+    width: 100%;
+}
+
+.textocomentario {
+    margin: 5px 3px 5px 50px;
+}
+
+.respuestas {
+    font-weight: bold;
+    color: grey;
+}
+
+
+.reaccion {
+    padding: 0px;
+    width: 32px;
+    height: 32px;
+}
+
+.nombreUsuario {
+    display: inline;
+    font-weight: 500;
+}
+
+.tiempomensaje {
+    font-size: small;
+    margin-left: 15px;
+    color: grey
+}
+
+.lineabotones {
+    position: relative;
+    left: 50px;
+}
+
+.mgs {
+    margin: 0px 10px 0px 10px;
+    font-size: small;
+    position: relative;
+    
+}
+
+.reaccion {
+    padding: 0px;
+}
+
+
+
+
+
+

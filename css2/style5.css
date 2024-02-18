@@ -1,0 +1,21 @@
+div {
+    background-color: blue;
+    font-weight: 100;
+    font-size: larger;
+}
+
+
+#id {
+    background-color: green;
+}
+
+
+.clase {
+    background-color: red;
+    font-weight: bolder;
+}
+
+
+
+
+
